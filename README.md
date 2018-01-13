@@ -47,11 +47,24 @@ Setup
 
 Explanations
 ----------------------------------------------------------------------------------------------------------------------------------
-* `/Module`
-  - In maven, modules are sub-projects.
-  - You will be using different Modules to maintain different web-domains.
+* `/AliBaba`
+  - Test cases: includes page object model, page factory.
+  - Data driven: reads testdata from xls files, google sheets.
+* `/AliBabaExtent-Report`
+  - Generates extent report in html format
+* `/Cigna`
+  - Test cases: includes page object model, page factory.
+* `/CignaExtent-Report`
+  - Generates extent report in html format
 * `/Generic`
-  - Generic module is created to manage all the common settings for all the modules.
+  - Generic module is created to manage all the common setttings for all the modules.
+* `/HomeDepot`
+  - Test cases: includes page object model, page factory.
+  - Data driven: reads testdata from xls files, google sheets.
+* `/HomeDepotExtent-Report`
+  - Generates extent report in html format
+* `/Cigna`
+  - Test cases: includes page object model, page factory.
 * `.gitignore`
   - Git uses this file to determine which files and directories to ignore, before you make a commit.
 * `pom.xml`
@@ -73,5 +86,6 @@ References
 * TestNG API
   - [TestNG Documents](https://jitpack.io/com/github/cbeust/testng/master/javadoc/)
 * Working with GoogleSheet
-  - [GoogleSheet reference Document](https://developers.google.com/sheets/api/quickstart/java)
-  
+  - [GoogleSheet API Document](https://developers.google.com/sheets/api/quickstart/java)
+* Apache Maven Project
+  - [Maven CLI Options Reference](http://maven.apache.org/ref/3.1.0/maven-embedder/cli.html)
