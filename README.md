@@ -89,3 +89,9 @@ References
   - [GoogleSheet API Document](https://developers.google.com/sheets/api/quickstart/java)
 * Apache Maven Project
   - [Maven CLI Options Reference](http://maven.apache.org/ref/3.1.0/maven-embedder/cli.html)
+* JMeter
+  - [Apache JMeter](http://jmeter.apache.org/)
+* Mobile Testing resources
+  - [Node/npm](https://www.npmjs.com/package/npm)
+  - [Appium](http://appium.io/downloads.html)
+  - [Android SDK](https://developer.android.com/studio/index.html)
